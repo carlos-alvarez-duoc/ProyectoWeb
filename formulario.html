@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+     crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row5">    <!--d-flex-->
+            <h1>Formulario de contacto</h1>
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputNombre" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputApellido" class="form-label">Apellido</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputDireccion" class="form-label">Dirección</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="">
+                </div>
+                <div class="col-12">
+                  <label for="inputelefono" class="form-label">Telefono +56 9</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCiudad" class="form-label">Cuidad</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputMarca" class="form-label">Marca Vehiculo</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>KÍA</option>
+                    <option selected>HYUNDAI</option>
+                    <option selected>MG</option>
+                    <option selected>NISSAN</option>
+                    <option>OTRO</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="Patente" class="form-label">Patente</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style= "height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comentarios</label>
+                  </div>
+                <div class="col-12">
+                  <div class="checkbox">
+                    <input class="form-check-input" type="checkbox" id="checkbox">
+                    <label class="form-check-label" for="gridCheck">
+                      Soy Humano
+                    </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+        </div>
+    </div>
+    
+</body>
+</html>

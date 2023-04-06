@@ -1,0 +1,50 @@
+.container-fluid{
+    background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.boton-volver{
+    float: right;
+    margin: 5px;
+    background-color:cornflowerblue;
+}
+
+/*.container2{
+    margin: 5px;
+    background: #a8ff78;  
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  
+background: linear-gradient(to right, #78ffd6, #a8ff78); 
+}*/
+
+/*letras de las imagenes del carrusel de los ultimos trabajos */
+#carrusel{
+    text-decoration-color: blanchedalmond;
+    background-color:black;
+    width: 802px;
+    height: 50px;
+    margin-inline-start: 50px;
+    
+}
+#ultimostrabajos{
+    text-align: center;
+}
+.reparaciones{  /*Clase para las imagenes del carrusel*/
+    margin-bottom: 50px;
+    margin-left: 250px;
+    width: 800px;
+    height: 500px;
+}
+.row1{
+    background-color:cornflowerblue;
+}
+.row5{
+    
+    margin-bottom: 50px;
+    margin-left: 250px;
+    width: 750px;
+    height: 700px;
+}
+
+
